@@ -1,3 +1,5 @@
+import Header from "../../components/AdminHeader";
+
 export default function AdminLayout({
     children,
 }: Readonly<{
@@ -5,7 +7,7 @@ export default function AdminLayout({
 }>) {
     return (
         <div>
-            <div>User Header</div>
+            <Header user_role="user"/>
             <div>{children}</div>
             <div>User footer</div>
         </div>
