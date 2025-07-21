@@ -1,6 +1,7 @@
-export default function UserPage(){
+export default function UserPage() {
     return (
-            <div className="flex justify-center items-center min-h-lvh">
-User Page</div>
+        <div className="flex justify-center items-center min-h-lvh">
+            User dashboard
+        </div>
     )
 }

@@ -1,7 +1,7 @@
-export default function Admin(){
+export default function Admin() {
     return (
-            <div className="flex justify-center items-center min-h-lvh">
-Admin Page
-</div>
+        <div className="flex justify-center items-center min-h-lvh">
+            Admin Dashboard
+        </div>
     )
 }
